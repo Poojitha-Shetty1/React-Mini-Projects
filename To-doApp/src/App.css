@@ -1,0 +1,17 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.details{
+    background-color: bisque;
+    border:1px solid black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonn{
+    color:white;
+    background-color: black;
+}
+

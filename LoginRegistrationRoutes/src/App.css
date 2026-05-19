@@ -1,0 +1,70 @@
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.register-form input{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.register-form button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.home-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home-container h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.home-container p{
+    font-size: 20px;
+    color: gray;
+}
